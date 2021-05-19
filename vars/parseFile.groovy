@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
 
-def call() {
+def callTest() {
     println('Hello from VAR')
 }
