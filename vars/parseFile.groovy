@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
 
-def callTest() {
-    println('Hello from VAR')
+def callTest(String name = 'human') {
+    echo "Hello, ${name}."
 }
